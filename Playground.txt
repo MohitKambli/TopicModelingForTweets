@@ -1,0 +1,49 @@
+Corporate layoffs are a common occurrence in today's business world, and they often generate significant public attention and discussion. With the rise of social media platforms, individuals now have a powerful tool to express their opinions and emotions about these events. In this project, we conducted a sentiment analysis of tweets related to recent company layoffs to better understand public perceptions and emotions surrounding these events.
+We collected a dataset of tweets related to layoffs in technology companies. We used natural language processing techniques to preprocess and analyze the tweets, including tokenization, stemming, and sentiment analysis. We classified the tweets as positive, negative, or neutral based on their sentiment scores.
+Our analysis revealed several interesting findings about public sentiments towards company layoffs. Overall, we found that tweets related to layoffs tended to be negative, with users expressing emotions such as sadness, anger, and frustration. We also found that the sentiment varied depending on the specific company and industry involved, with some industries generating more negative sentiments than others.
+Our results have important implications for companies and policymakers who are interested in understanding public perceptions of layoffs. By analyzing sentiments from social media, we can gain valuable insights into how individuals perceive and respond to these events, which can inform future decisions and policies.
+
+
+
+
+In this project, we conducted a sentiment analysis of tweets related to recent company layoffs to better understand public sentiments towards these events. We collected a dataset of tweets related to layoffs from various industries, including technology, retail, and finance. We used natural language processing techniques to preprocess and analyze the tweets, including tokenization, stemming, and sentiment analysis. Our analysis focused on classifying the tweets as positive, negative, or neutral based on their sentiment scores.
+By conducting a sentiment analysis of tweets related to layoffs, we aimed to answer the following research questions:
+What are the predominant sentiments expressed in tweets related to layoffs?
+How do sentiments vary depending on the specific company and industry involved?
+What insights can we gain from analyzing sentiments about layoffs from social media?
+Our findings have important implications for companies, policymakers, and individuals who are interested in understanding public perceptions of layoffs. By gaining insights into how individuals perceive and respond to layoffs, we can inform future decisions and policies that aim to mitigate the negative impacts of these events on individuals and communities.
+
+
+Data Collection: We collected a dataset of tweets related to recent company layoffs using Twitter's API. We used a set of keywords related to layoffs in various industries, including technology, retail, and finance, to collect the tweets. We also filtered out retweets and non-English tweets from our dataset.
+Data Preprocessing: We used natural language processing techniques to preprocess the tweets before analyzing their sentiments. This included removing stop words, tokenizing the tweets, stemming, and lemmatization. We also performed text normalization to ensure that the tweets were consistent across the dataset.
+
+Sentiment Analysis: We used a sentiment analysis tool to classify the tweets as positive, negative, or neutral based on their sentiment scores. We used the VADER (Valence Aware Dictionary and sEntiment Reasoner) tool, which is specifically designed for analyzing social media texts. VADER provides a sentiment score for each tweet, ranging from -1 (most negative) to +1 (most positive).
+Data Analysis: We analyzed the sentiment scores to identify patterns and trends in the data. We calculated the overall sentiment score for each tweet and used this to classify the tweet as positive, negative, or neutral. We also conducted a statistical analysis to identify any significant differences in sentiment scores between different companies and industries.
+Visualization: We used data visualization techniques to present our findings. We created charts and graphs to display the overall sentiment scores for each company and industry, as well as the distribution of sentiment scores across the dataset.
+
+
+
+We would like to express our gratitude to several individuals who contributed to the success of this project. First, we would also like to thank Twitter for providing us with access to their API, which allowed us to collect the tweets for our dataset.
+Additionally, we would like to extend our appreciation to our subject professor Lu Xaio, for their guidance and support. Their insights and suggestions were invaluable in shaping the direction and scope of our study.
+Furthermore, we would also like to thank our batch mates and participants who shared their opinions and emotions about layoffs on social media. Without their contributions, this project would not have been possible.
+Finally, we would like to acknowledge the team members Chaitanya, Mikhail, Anjali and Mohit, for their hard work and dedication to this project. Each member brought a unique set of skills and expertise, which enabled us to tackle the various challenges that arose throughout the project.
+
+
+
+Natural Language Processing:
+
+Definition: Natural Language Processing (NLP) is a subfield of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language.
+Applications of NLP: NLP is used in a wide range of applications, including language translation, sentiment analysis, text summarization, and speech recognition.
+NLP Techniques: NLP techniques include tokenization, stemming, part-of-speech tagging, named entity recognition, and sentiment analysis.
+LDA (Latent Dirichlet Allocation):
+
+Definition: LDA is a statistical model used for topic modeling, which is the process of identifying hidden patterns in a collection of documents.
+Applications of LDA: LDA is used in a wide range of applications, including social media analysis, customer feedback analysis, and market research.
+LDA Algorithm: The LDA algorithm uses statistical inference to estimate the parameters of the model, including the distribution of topics and the distribution of words within each topic.
+Evaluation of LDA: LDA models can be evaluated using metrics such as coherence and perplexity, which measure the quality of the topics and their coherence within the model.
+Topic Modeling:
+
+Definition: Topic modeling is a process of discovering hidden patterns or themes within a collection of documents.
+Applications of Topic Modeling: Topic modeling is used in a wide range of applications, including text classification, information retrieval, and content analysis.
+Techniques for Topic Modeling: Techniques for topic modeling include LDA, Non-Negative Matrix Factorization (NMF), and Hierarchical Dirichlet Process (HDP).
+Evaluation of Topic Modeling: Topic models can be evaluated using metrics such as coherence, perplexity, and human judgement, which measure the quality of the topics and their relevance to the documents.
